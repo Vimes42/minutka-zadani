@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  display: flex;
+ 
   background-color: #4ecdc4;
 }
 
@@ -17,6 +17,7 @@ body {
   width: 30rem;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .alarm {
@@ -46,4 +47,15 @@ body {
 
 .alarm--ring {
   animation: ring 100ms 50;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 5%;
+  display: block;
 }
